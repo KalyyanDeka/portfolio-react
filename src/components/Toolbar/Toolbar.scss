@@ -8,10 +8,6 @@
 
   z-index: 202;
 
-  @media (max-width: 769px) {
-    height: px;
-  }
-
   &__navigation {
     display: flex;
     height: 100%;
@@ -25,7 +21,7 @@
 
     &--items {
       a {
-        color: #c6b6ff;
+        color: #ffffff;
         text-decoration: none;
         list-style: none;
 

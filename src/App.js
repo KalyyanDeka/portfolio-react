@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import "./App.scss";
+
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./UI/Backdrop";
+
+import Header from "./components/Header/Header";
 
 const App = () => {
   const [sideDrawerOpen, onSideDrawerOpen] = useState(false);
@@ -27,7 +30,7 @@ const App = () => {
       <SideDrawer show={sideDrawerOpen} />
       {backdrop}
       <main style={{ marginTop: "56px" }}>
-        <p>THIS IS THE PAGE CONTENT</p>
+        <Header />
       </main>
     </div>
   );

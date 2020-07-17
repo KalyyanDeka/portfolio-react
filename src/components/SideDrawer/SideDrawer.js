@@ -18,7 +18,7 @@ const sideDrawer = (props) => {
             <span>
               <strong>01: </strong>
             </span>
-            Works
+            Home
           </a>
         </li>
         <li>
@@ -26,13 +26,21 @@ const sideDrawer = (props) => {
             <span>
               <strong>02: </strong>
             </span>
-            About
+            Works
           </a>
         </li>
         <li>
           <a href="/">
             <span>
               <strong>03: </strong>
+            </span>
+            About
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <span>
+              <strong>04: </strong>
             </span>
             Contact
           </a>
