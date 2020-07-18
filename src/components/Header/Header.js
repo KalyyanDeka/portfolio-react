@@ -11,6 +11,16 @@ const header = () => {
           <span className="heading-primary-sub">Full Stack Developer</span>
         </h1>
       </div>
+      <div className="mail-button">
+        <a
+          href="mailto:kalyyan.2612@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-mail"
+        >
+          Get in touch
+        </a>
+      </div>
     </div>
   );
 };

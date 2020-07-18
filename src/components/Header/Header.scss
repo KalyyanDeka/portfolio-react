@@ -59,8 +59,48 @@
   text-align: right;
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
+  color: rgb(143, 144, 165);
 
   @media (max-width: 769px) {
     font-size: 15px;
   }
+}
+
+.mail-button {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+
+  @media (max-width: 769px) {
+    left: 15%;
+  }
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  transition: all 0.2s;
+
+  @media (max-width: 769px) {
+    padding: 15px;
+  }
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  background: rgba(37, 48, 76, 0.5);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.btn-mail {
+  background: transparent;
+  border: 2px solid #ff6600;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 2px;
+  color: #ffffff;
 }
