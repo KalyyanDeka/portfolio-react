@@ -7,6 +7,8 @@ import Backdrop from "./UI/Backdrop";
 
 import Header from "./components/Header/Header";
 
+import Works from "./components/Works/Works";
+
 const App = () => {
   const [sideDrawerOpen, onSideDrawerOpen] = useState(false);
 
@@ -31,6 +33,7 @@ const App = () => {
       {backdrop}
       <main style={{ marginTop: "56px" }}>
         <Header />
+        <Works />
       </main>
     </div>
   );

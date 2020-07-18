@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+.works {
+  margin-top: 60px;
+  height: 120vh;
+
+  &--heading {
+    height: 12%;
+    margin-left: 80px;
+    border-bottom: 2px solid rgb(37, 48, 76);
+    padding: 5px 30px;
+    display: inline-block;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 60px;
+    color: linear-gradient(
+      180deg,
+      #6684c3 0,
+      #9b87b3 0,
+      #6a6195 0,
+      #5d71ab 24.63%,
+      #6f71ab 50%,
+      #7f71ab 75%,
+      #8f71ab
+    );
+  }
+
+  &--cards {
+    height: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+  &--view-more {
+    height: 12%;
+  }
+}
+
+.project {
+  background-color: rgb(231, 231, 231);
+  height: 450px;
+  width: 450px;
+  padding: 12px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  border: 2px solid rgb(0, 0, 0);
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  &__picture {
+    background-size: cover;
+    height: 220px;
+
+    &--1 {
+      background-image: url(../../images/burger-builder.jpeg);
+    }
+
+    &--2 {
+      background-image: url(../../images/smart-brain.png);
+    }
+  }
+
+  &__stack {
+    font-family: "Roboto Mono", monospace;
+    margin-top: 8px;
+    font-weight: 700;
+  }
+
+  &__heading {
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 8px;
+  }
+
+  &__details {
+    margin-top: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.more-projects-btn:link,
+.more-projects-btn:visited {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  color: #000000;
+  margin-left: 169px;
+  padding: 20px 40px;
+  font-size: 30px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.more-projects-btn:hover {
+  transform: translateY(-2px);
+}
