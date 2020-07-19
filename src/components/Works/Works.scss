@@ -2,32 +2,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 .works {
   margin-top: 60px;
-  height: 120vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   @media (max-width: 769px) {
-    height: 200vh;
+    height: auto;
   }
 
   &--heading {
-    height: 12%;
     margin-left: 80px;
-    border-bottom: 2px solid rgb(37, 48, 76);
     padding: 5px 30px;
     display: inline-block;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 60px;
     color: #000000;
+    display: block;
 
     @media (max-width: 769px) {
       font-size: 40px;
       margin-left: 45px;
-      height: 10%;
-      height: 5%;
     }
   }
 
   &--cards {
-    height: 76%;
     display: flex;
     justify-content: space-evenly;
     align-items: space-evenly;
@@ -35,13 +34,8 @@
     padding: 50px;
 
     @media (max-width: 769px) {
-      padding: 40px 20px 0px 20px;
-      height: 70%;
+      padding: 40px 20px 20px 20px;
     }
-  }
-
-  &--view-more {
-    height: 12%;
   }
 }
 
@@ -55,8 +49,12 @@
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
   border: 2px solid rgb(0, 0, 0);
 
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
   @media (max-width: 769px) {
-    height: 400px;
+    height: 380px;
   }
 
   &:hover {

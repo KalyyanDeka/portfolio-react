@@ -9,6 +9,8 @@ import Header from "./components/Header/Header";
 
 import Works from "./components/Works/Works";
 
+import Aboutme from "./components/Aboutme/Aboutme";
+
 const App = () => {
   const [sideDrawerOpen, onSideDrawerOpen] = useState(false);
 
@@ -34,6 +36,7 @@ const App = () => {
       <main style={{ marginTop: "56px" }}>
         <Header />
         <Works />
+        <Aboutme />
       </main>
     </div>
   );
