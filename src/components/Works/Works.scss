@@ -4,6 +4,10 @@
   margin-top: 60px;
   height: 120vh;
 
+  @media (max-width: 769px) {
+    height: 200vh;
+  }
+
   &--heading {
     height: 12%;
     margin-left: 80px;
@@ -12,16 +16,14 @@
     display: inline-block;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 60px;
-    color: linear-gradient(
-      180deg,
-      #6684c3 0,
-      #9b87b3 0,
-      #6a6195 0,
-      #5d71ab 24.63%,
-      #6f71ab 50%,
-      #7f71ab 75%,
-      #8f71ab
-    );
+    color: #000000;
+
+    @media (max-width: 769px) {
+      font-size: 40px;
+      margin-left: 45px;
+      height: 10%;
+      height: 5%;
+    }
   }
 
   &--cards {
@@ -31,6 +33,11 @@
     align-items: space-evenly;
     flex-wrap: wrap;
     padding: 50px;
+
+    @media (max-width: 769px) {
+      padding: 40px 20px 0px 20px;
+      height: 70%;
+    }
   }
 
   &--view-more {
@@ -48,6 +55,10 @@
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
   border: 2px solid rgb(0, 0, 0);
 
+  @media (max-width: 769px) {
+    height: 400px;
+  }
+
   &:hover {
     transform: translateY(-4px);
   }
@@ -55,6 +66,10 @@
   &__picture {
     background-size: cover;
     height: 220px;
+
+    @media (max-width: 769px) {
+      height: 160px;
+    }
 
     &--1 {
       background-image: url(../../images/burger-builder.jpeg);
@@ -69,6 +84,10 @@
     font-family: "Roboto Mono", monospace;
     margin-top: 8px;
     font-weight: 700;
+
+    @media (max-width: 769px) {
+      font-size: 13px;
+    }
   }
 
   &__heading {
@@ -77,6 +96,10 @@
     text-align: center;
     display: inline-block;
     margin-top: 8px;
+
+    @media (max-width: 769px) {
+      font-size: 32px;
+    }
   }
 
   &__details {
@@ -101,6 +124,12 @@
   letter-spacing: 2px;
   font-weight: 700;
   transition: all 0.2s;
+
+  @media (max-width: 769px) {
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 25px;
+  }
 }
 
 .more-projects-btn:hover {
