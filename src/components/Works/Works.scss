@@ -12,17 +12,16 @@
   }
 
   &--heading {
-    margin-left: 80px;
     padding: 5px 30px;
     display: inline-block;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 60px;
     color: #000000;
     display: block;
+    text-align: center;
 
     @media (max-width: 769px) {
       font-size: 40px;
-      margin-left: 45px;
     }
   }
 
@@ -54,7 +53,7 @@
   }
 
   @media (max-width: 769px) {
-    height: 380px;
+    height: 400px;
   }
 
   &:hover {

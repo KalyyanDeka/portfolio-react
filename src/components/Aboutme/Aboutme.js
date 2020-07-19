@@ -4,7 +4,7 @@ import "./Aboutme.scss";
 const aboutme = () => {
   return (
     <div className="aboutme">
-      <h1>About me</h1>
+      <h1>ABOUT ME</h1>
     </div>
   );
 };
